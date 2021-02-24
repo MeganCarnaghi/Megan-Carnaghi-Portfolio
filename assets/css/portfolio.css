@@ -1,0 +1,117 @@
+/* Generic styling for the page */
+* {
+  font-family: "NTR", sans-serif;
+  font-size: 20px;
+}
+
+body,
+html {
+  background-color: #1a6968;
+  height: 100%;
+}
+
+h1 {
+  font-family: "Homemade Apple", cursive;
+  color: #ffffff;
+}
+
+p,
+a,
+span {
+  color: #ffffff;
+}
+
+a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+#megan {
+  font-family: "Homemade Apple", cursive;
+  padding: 10px;
+}
+
+/* Styling for the hero */
+.card-img-overlay {
+  text-align: right;
+}
+
+.hero {
+  border-bottom: 1px solid #ffffff;
+}
+
+/* Styling for the portfolio section */
+.my-portfolio {
+  padding: 30px 0 55px 0;
+  text-align: center;
+  color: #ffffff;
+}
+
+.project {
+  background-color: #599392;
+  box-shadow: 4px 3px 8px 1px #343a3f;
+}
+
+.img-fluid {
+  border-radius: 15px;
+  border: 10px solid #599392;
+}
+
+.btn {
+  color: #ffffff;
+  background-color: #1a6968;
+  border: 1px solid #1a6968;
+  box-shadow: 1px 1px 6px #343a3f;
+  padding: 5px 12px;
+  margin: 0 10px;
+}
+
+.btn:hover {
+  background-color: #ffffff;
+  color: #1a6968;
+  border: 1px solid #1a6968;
+}
+
+.row {
+  margin-top: 25px;
+}
+
+/* Styling for the footer */
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__contactInfo {
+  padding: 20px 0;
+}
+
+.footer__infoSpan {
+  padding-right: 20px;
+}
+
+.footer__copyrightP {
+  color: #989b9d;
+}
+
+/* Stylng for Mobile */
+@media only screen and (max-width: 600px) {
+  #hero {
+    display: none;
+  }
+
+  .col-sm-4 {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .project {
+    margin-bottom: 40px;
+  }
+
+  .footer__contactInfo {
+    padding: 20px 40px;
+    line-height: 40px;
+  }
+}

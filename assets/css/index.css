@@ -1,0 +1,108 @@
+/* Generic styling for the page */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "NTR", sans-serif;
+  font-size: 20px;
+}
+
+body,
+html {
+  background-color: #1a6968;
+  height: 100%;
+}
+
+p,
+a,
+span {
+  color: #ffffff;
+}
+
+a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+#megan {
+  font-family: "Homemade Apple", cursive;
+  padding: 10px;
+}
+
+/* Styling for the hero image and text */
+h1 {
+  font-family: "Homemade Apple", cursive;
+  color: #ffffff;
+}
+
+/* Styling for the hero */
+.card-img-overlay {
+  text-align: right;
+}
+.hero {
+  border-bottom: 1px solid #ffffff;
+}
+
+/* Styling for the About Me section */
+
+.main__aboutMe {
+  display: flex;
+  justify-content: center;
+  margin: 60px 0 40px 0;
+}
+
+.main__image {
+  border-radius: 50%;
+  margin: 0 auto;
+  box-shadow: 4px 3px 8px 1px #343a3f;
+}
+
+.main__imageDiv {
+  padding: 0 80px;
+}
+
+.main__paragraph {
+  padding: 0 80px 0 20px;
+}
+
+/* Styling for the footer */
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__contactInfo {
+  padding: 20px 0;
+}
+
+.footer__infoSpan {
+  padding-right: 20px;
+}
+
+.footer__copyrightP {
+  color: #989b9d;
+}
+
+/* Stylng for Mobile */
+@media only screen and (max-width: 600px) {
+  .main__aboutMe {
+    flex-direction: column;
+  }
+
+  .main__paragraph {
+    padding: 60px 40px;
+  }
+
+  .main__imageDiv {
+    padding: 0 40px;
+  }
+
+  .hero {
+    display: none;
+  }
+
+  .footer__contactInfo {
+    padding: 20px 40px;
+    line-height: 40px;
+  }
+}

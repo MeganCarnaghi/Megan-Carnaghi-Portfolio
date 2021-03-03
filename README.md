@@ -23,7 +23,7 @@ A web-based portfolio built from scratch, featuring various coding projects I ha
 
 ## Link
 
-- Link to Deployed Application: https://megancarnaghi.github.io/Updated-Portfolio-2/index.html
+- Link to Deployed Application: https://megancarnaghi.github.io/Megan-Carnaghi-Portfolio/
 
 ## Screenshots
 

@@ -28,7 +28,7 @@ A web-based portfolio built from scratch, featuring various coding projects I ha
 ## Screenshots
 
 ![Home Page](assets/Screenshots/home-page.jpg)\
-![Portfolio Page](assets/Screenshots/portfolio.jpg)\
+![Portfolio Page](assets/Screenshots/portfolio.jpg)
 
 ## License
 

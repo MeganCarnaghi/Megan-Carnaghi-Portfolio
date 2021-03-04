@@ -4,7 +4,7 @@
 
 - [Description](#description)
 - [Technologies Used](#technologies-used)
-- [Links](#links)
+- [Link](#link)
 - [Screenshots](#screenshots)
 - [License](#license)
 
@@ -21,17 +21,14 @@ A web-based portfolio built from scratch, featuring various coding projects I ha
 - Font Awesome
 - Pexels
 
-## Links
+## Link
 
-- Link to GitHub Repository: https://github.com/MeganCarnaghi/Updated-Portfolio-2.git
-
-- Link to Deployed Application: https://megancarnaghi.github.io/Updated-Portfolio-2/index.html
+- Link to Deployed Application: https://megancarnaghi.github.io/Megan-Carnaghi-Portfolio/
 
 ## Screenshots
 
 ![Home Page](assets/Screenshots/home-page.jpg)\
 ![Portfolio Page](assets/Screenshots/portfolio.jpg)\
-![Contact Page](assets/Screenshots/contact-page.jpg)
 
 ## License
 

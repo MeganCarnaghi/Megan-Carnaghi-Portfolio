@@ -6,10 +6,9 @@
   font-size: 20px;
 }
 
-body,
-html {
+body {
   background-color: #1a6968;
-  height: 100%;
+  min-height: 100vh;
 }
 
 p,
@@ -90,7 +89,7 @@ h1 {
   }
 
   .main__paragraph {
-    padding: 60px 40px;
+    padding: 60px 40px 20px 40px;
   }
 
   .main__imageDiv {
